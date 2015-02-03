@@ -18,7 +18,7 @@ module Embulk
 			columns = [
 				Column.new(0, 'FILE_NAME', :string),
 				Column.new(1, 'FILE_PATH', :string),
-				Column.new(2, 'FILE_SIZE_RAW', :long),
+				Column.new(2, 'FILE_SIZE_RAW', :long)
 			]
 
 			puts "File information generation started."
